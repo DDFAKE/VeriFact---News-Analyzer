@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "VeriFact",
+  "version": "1.0",
+  "description": "Advanced Fake News Detection Tool",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://*/*"
+  ]
+}
